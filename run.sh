@@ -9,12 +9,12 @@ source myenv/bin/activate
 ##                 For testing on local machine 
 ##           
 ###############################################################################
-#HADOOP_USER_NAME=salman   
-#NAMENODE_IP=127.0.0.1
-#NAMENODE_PORT=8020
-#export     LIBHDFS_ROOT_CA_BUNDLE="/tmp/hopsfs-conf/certs/pems/salman_root_ca.pem"
-#export LIBHDFS_CLIENT_CERTIFICATE="/tmp/hopsfs-conf/certs/pems/salman_certificate_bundle.pem"
-#export         LIBHDFS_CLIENT_KEY="/tmp/hopsfs-conf/certs/pems/salman_private_key.pem"
+HADOOP_USER_NAME=salman   
+NAMENODE_IP=127.0.0.1
+NAMENODE_PORT=8020
+export     LIBHDFS_ROOT_CA_BUNDLE="/tmp/hopsfs-conf/certs/pems/salman_root_ca.pem"
+export LIBHDFS_CLIENT_CERTIFICATE="/tmp/hopsfs-conf/certs/pems/salman_certificate_bundle.pem"
+export         LIBHDFS_CLIENT_KEY="/tmp/hopsfs-conf/certs/pems/salman_private_key.pem"
 
             
 ###############################################################################
@@ -22,12 +22,12 @@ source myenv/bin/activate
 ##                 For testing  in VM using hdfs user           
 ##           
 ###############################################################################
-HADOOP_USER_NAME=hdfs
-NAMENODE_IP=rpc.namenode.service.consul
-NAMENODE_PORT=8020
-export     LIBHDFS_ROOT_CA_BUNDLE="/srv/hops/super_crypto/hdfs/hops_root_ca.pem"
-export LIBHDFS_CLIENT_CERTIFICATE="/srv/hops/super_crypto/hdfs/hdfs_certificate_bundle.pem"
-export         LIBHDFS_CLIENT_KEY="/srv/hops/super_crypto/hdfs/hdfs_priv.pem"
+#HADOOP_USER_NAME=hdfs
+#NAMENODE_IP=rpc.namenode.service.consul
+#NAMENODE_PORT=8020
+#export     LIBHDFS_ROOT_CA_BUNDLE="/srv/hops/super_crypto/hdfs/hops_root_ca.pem"
+#export LIBHDFS_CLIENT_CERTIFICATE="/srv/hops/super_crypto/hdfs/hdfs_certificate_bundle.pem"
+#export         LIBHDFS_CLIENT_KEY="/srv/hops/super_crypto/hdfs/hdfs_priv.pem"
 
 
 ###############################################################################
